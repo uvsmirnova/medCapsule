@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Медкапсула</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/medcapsule.css">
+	<link rel="stylesheet" type="text/css" href="styles/shared.css">
+	<script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/text.js" defer></script>
+	<script type="text/javascript" src="js/medcapsule.js" defer></script>
+	<script src="libs/perfect-scrollbar.jquery.min.js"></script>
+	<link rel="stylesheet" href="styles/perfect-scrollbar.css">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+<div id="container">
+	<div id="common">	
+		<div class="hed">
+			<div><h1>Медицинская Капсула</h1></div>
+			<div class="equipments" id="equipment" data-title="Подключено">симуляция откл./вкл. оборудования биорегенирации</div>
+		</div>
+		<div id="innerContainer">
+			<div id="left-part">
+				<div id="forErrorScreen">
+					<div id="errorScreen">связь с капсулой утеряна</div>
+					<div id="connectScreen">оборудование подключено</div>
+				</div>
+				<div id="matrixBlock">
+					<div id="matrix">
+						<div id="wrapper">
+							<div id="pRunningText"></div>
+						</div>
+					</div>
+				</div>
+				<div class="forBar">
+					<div id="barStart" class="progressbarStart"><div id="pb" class='progressbar'><div></div></div></div>
+					<div id="barAnalysis" class="border"><div id="bar_color" class="cont"><div id="bar" class="barGo"></div></div></div>
+				</div>
+				<div id="forHealButton">
+					<button id="healButton"></button>
+				</div>
+			</div>
+			<div id="right-part">
+				<div id="imgContainer" >
+					<img id="bodyImg"  class="bordered-blue"  src="img/human_start.jpg" >
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'PFDinTextPro-Regular';
+  src: url('fonts/PFDinTextPro-Regular.eot');
+  src: url('fonts/PFDinTextPro-Regular.eot?#iefix') format('eot'),
+       url('fonts/PFDinTextPro-Regular.woff') format('woff'),
+       url('fonts/PFDinTextPro-Regular.ttf') format('truetype'),
+       url('fonts/PFDinTextPro-Regular.svg') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextPro-Medium';
+  src: url('fonts/PFDinTextPro-Medium.eot');
+  src: url('fonts/PFDinTextPro-Medium.eot?#iefix') format('eot'),
+       url('fonts/PFDinTextPro-Medium.woff') format('woff'),
+       url('fonts/PFDinTextPro-Medium.ttf') format('truetype'),
+       url('fonts/PFDinTextPro-Medium.svg') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextPro-Light';
+  src: url('fonts/PFDinTextPro-Light.eot');
+  src: url('fonts/PFDinTextPro-Light.eot?#iefix') format('eot'),
+       url('fonts/PFDinTextPro-Light.woff') format('woff'),
+       url('fonts/PFDinTextPro-Light.ttf') format('truetype'),
+       url('fonts/PFDinTextPro-Light.svg') format('svg');
+}
+@font-face {
+  font-family: 'EuropeExt';
+  src: url('EuropeExtBold.eot');
+  src: url('fonts/EuropeExtBold.eot?#iefix') format('eot'),
+       url('fonts/EuropeExtBold.woff') format('woff'),
+       url('fonts/EuropeExtBold.ttf') format('truetype'),
+       url('fonts/EuropeExtBold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {outline: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+html {
+  height: 100%;
+  color: #c3f6f9;
+}
+
+body {
+  background: #0d151a;
+  height: 100%;
+  margin: 0;
+  font-family: 'PFDinTextPro-Regular';
+}
+
+h1 {
+  font-family: 'EuropeExt';
+  color: #c3f6f9;
+  text-transform: uppercase;
+  font-size: 3.4vh; 
+}
+
+h2 {
+  width: 100%;
+  color: #c3f6f9;
+  font-family: 'EuropeExt';
+  font-size: 3vh;
+  margin: 0;
+  text-align: center;
+}
